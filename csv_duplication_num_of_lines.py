@@ -17,7 +17,8 @@ count = 0
 for line_a in l_a:
     for line_b in l_b:
         if line_a == line_b:
+            # 一致しているものが見つかったらループから抜ける
             count += 1
-            
+            break
 
 print('完全に一致している行の数は ' + str(count))
