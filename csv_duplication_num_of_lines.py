@@ -18,5 +18,6 @@ for line_a in l_a:
     for line_b in l_b:
         if line_a == line_b:
             count += 1
+            
 
 print('完全に一致している行の数は ' + str(count))
